@@ -380,7 +380,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "whos with me";
 }
 .teams .carousel .card{
     background: #222;
@@ -391,7 +391,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: rgb(233, 12, 86);
 }
 .teams .carousel .card .box{
     display: flex;
@@ -677,4 +677,8 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+.Social-links 
+{
+    letter-spacing: 10px;
 }
